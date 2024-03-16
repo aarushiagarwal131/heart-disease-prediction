@@ -1,8 +1,8 @@
-# Project Title: Heart Disease Prediction
+# Heart Disease Prediction
 
 ## Overview
 
-This project focuses on predicting heart disease in patients based on various clinical parameters. The goal is to build a machine learning model that can accurately classify whether a patient has heart disease or not. The dataset used for this project is sourced from the UCI Machine Learning Repository and Kaggle.
+This project aims to predict heart disease in patients based on various clinical parameters. The goal is to develop a machine learning model capable of accurately classifying whether a patient has heart disease or not. The dataset used for this project is sourced from both the [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/45/heart+disease) and [Kaggle](https://www.kaggle.com/datasets/redwankarimsony/heart-disease-data/data).
 
 ## Project Structure
 
@@ -10,13 +10,13 @@ This project focuses on predicting heart disease in patients based on various cl
    - Can we predict whether or not a patient has heart disease based on clinical parameters?
 
 2. **Data:**
-   - The dataset is obtained from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/45/heart+disease) and [Kaggle](https://www.kaggle.com/datasets/redwankarimsony/heart-disease-data/data).
+   - The dataset includes detailed information on various clinical parameters such as age, sex, chest pain type, blood pressure, cholesterol, fasting blood sugar, and electrocardiographic results.
 
 3. **Evaluation:**
-   - Aim to achieve a 95% accuracy in predicting heart disease during the proof of concept.
+   - The aim is to achieve a 95% accuracy in predicting heart disease during the proof of concept.
 
 4. **Features:**
-   - A detailed data dictionary is provided, including information on age, sex, chest pain type, blood pressure, cholesterol, fasting blood sugar, electrocardiographic results, and more.
+   - A comprehensive data dictionary is provided, describing each feature in detail.
 
 5. **Tools Used:**
    - Python libraries including NumPy, Pandas, Matplotlib, and Seaborn for data analysis and visualization.
@@ -33,17 +33,33 @@ This project focuses on predicting heart disease in patients based on various cl
 
 ## How to Run the Project
 
-1. Clone the repository to your local machine.
-2. Ensure you have Python installed.
-3. Install required libraries using `pip install -r requirements.txt`.
-4. Run the Jupyter Notebook or Python script for step-by-step execution.
-5. Explore visualizations, model evaluations, and analysis results.
+To run the project on your local machine, follow these steps:
+
+1. **Clone the Repository**:
+   ```
+   git clone https://github.com/aarushiagarwal131/heart-disease-prediction.git
+   ```
+
+2. **Ensure Python Installation**:
+   Make sure you have Python installed on your system. You can download and install Python from the [official Python website](https://www.python.org/downloads/).
+
+3. **Install Required Libraries**:
+   ```
+   pip install numpy pandas matplotlib seaborn scikit-learn
+   ```
+
+4. **Run the Jupyter Notebook**:
+   - Open the Jupyter Notebook (`heart-disease-prediction.ipynb`) for step-by-step execution of the project.
+
+5. **Explore Results**:
+   - Once the Jupyter Notebook is executed, explore the visualizations, model evaluations, and analysis results provided in the project.
 
 ## Results
 
-The Logistic Regression model performed the best among the selected classifiers. The project provides insights into predicting heart disease based on clinical data, with visualizations and detailed analysis of model performance.
+The Logistic Regression model achieved the best performance among the selected classifiers. The project offers valuable insights into predicting heart disease based on clinical data, accompanied by visualizations and detailed model performance analysis.
 
 ## Acknowledgments
 
 - [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/45/heart+disease)
 - [Kaggle](https://www.kaggle.com/datasets/redwankarimsony/heart-disease-data/data)
+
